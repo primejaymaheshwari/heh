@@ -1,0 +1,32 @@
+<p>My second page C:</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Us</title>
+</head>
+<body>
+
+    <h1>As you can see, second page</h1>
+    <p>Really tuff second page</p>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Homepage</title>
+</head>
+<body>
+
+    
+    <p>Under this is the link to the primary page </p>
+
+    <!-- page1.html -->
+    <p>Learn more <a href="page1.html">First page</a>.</p>
+<p>My favorite fish:</p>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrVI5PqjuHka_s5tD67Hqs0yjmOL-BWcpBtx89U76Kms4WHMCpKNHiPgVa5QC3dVGIbX5T5YtheG1c-qnvAM6NGrpQf6a7DlWN1qvV_ard&s=10" alt="alternatetext">
+<p>Its really cool</p>
+</body>
+</html>
