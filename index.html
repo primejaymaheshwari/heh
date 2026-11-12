@@ -4,23 +4,65 @@
 <head>
     <meta charset="UTF-8">
     <title>About Us</title>
+<style>
+
+body{
+color:black;
+background-color: gray;
+  padding: 25px;
+}
+    .title {
+	color: #red;
+}
+h1 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-style: italic;
+    letter-spacing: 1.5px;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
+}
+.tabs {
+    display: flex;
+    gap: 6px;
+    border-bottom: 2px solid #555;
+    margin-bottom: 20px;
+}
+.tabs a {
+    display: inline-block;
+    padding: 10px 16px;
+    color: #222;
+    background: #ddd;
+    text-decoration: none;
+    border-radius: 6px 6px 0 0;
+}
+    .tabs a[aria-current="page"] {
+        color: white;
+        background: #333;
+    }
+    img {
+        opacity: 0.5;
+    }
+</style>
 </head>
 <body>
 
+    <nav class="tabs" aria-label="Main navigation">
+        <a href="page1.html">First page</a>
+        <a href="index.html" aria-current="page">Second page</a>
+    </nav>
     <h1>As you can see, second page</h1>
-    <p>Really tuff second page</p>
+    <p>Really cool second page</p>
 
 </body>
 </html>
 <!DOCTYPE html>
 <html lang="en">
+<p style="background-color:Tomato;">I thought that red suited the site better, maybe not...</p>
 <head>
     <meta charset="UTF-8">
     <title>My Homepage</title>
 </head>
 <body>
 
-    
     <p>Under this is the link to the primary page </p>
 
     <!-- page1.html -->
