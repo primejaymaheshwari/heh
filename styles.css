@@ -1,6 +1,92 @@
-body{
-  padding: 25px;
+* {
+  box-sizing: border-box;
 }
-.title {
-	color: #5C6AC4;
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 32px 20px;
+  color: #43301f;
+  background: linear-gradient(135deg, #ffd166, #f4a261);
+  font-family: Georgia, "Times New Roman", serif;
+  text-align: center;
+}
+
+.page-card {
+  width: min(100%, 720px);
+  margin: 36px auto;
+  padding: 28px;
+  background: rgba(255, 250, 235, 0.92);
+  border: 1px solid rgba(110, 72, 35, 0.2);
+  border-radius: 0;
+}
+
+h1 {
+  margin: 8px 0 12px;
+  color: #713f21;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin: 0 auto 24px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(110, 72, 35, 0.22);
+}
+
+.tabs a {
+  padding: 8px 14px;
+  color: #573c26;
+  background: rgba(246, 223, 181, 0.7);
+  text-decoration: none;
+  border-radius: 0;
+  transition: background-color 150ms ease, color 150ms ease;
+}
+
+.tabs a:hover,
+.tabs a:focus-visible {
+  background: #efc887;
+}
+
+.tabs a[aria-current="page"] {
+  color: white;
+  background: #8a4f27;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  border: 2px solid #8a4f27;
+  border-radius: 0;
+}
+
+.secondary-image {
+  max-width: 60%;
+}
+
+#currentTime {
+  display: inline-block;
+  padding: 10px 14px;
+  color: #573c26;
+  background: #f6dfb5;
+  border-radius: 0;
+  font-size: 1.05rem;
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 20px 14px;
+  }
+
+  .page-card {
+    margin: 20px auto;
+    padding: 24px 18px;
+  }
 }
