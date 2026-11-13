@@ -78,6 +78,22 @@ img {
   cursor: pointer;
 }
 
+.truth-button {
+  display: inline-block;
+  padding: 9px 16px;
+  color: white;
+  background: #8a4f27;
+  text-decoration: none;
+  border: 1px solid #713f21;
+  border-radius: 0;
+  transition: background-color 150ms ease;
+}
+
+.truth-button:hover,
+.truth-button:focus-visible {
+  background: #713f21;
+}
+
 .fish-button:hover,
 .fish-button:focus-visible {
   background: #713f21;
@@ -85,6 +101,25 @@ img {
 
 .secondary-image {
   max-width: 60%;
+}
+
+.about-intro {
+  font-size: 1.25rem;
+}
+
+.about-image {
+  width: 220px;
+  border: 3px solid #8a4f27;
+  border-radius: 0;
+}
+
+.wrong-title {
+  font-size: 2.2rem;
+}
+
+.wrong-image {
+  width: 100%;
+  max-width: 450px;
 }
 
 #currentTime {
