@@ -67,6 +67,22 @@ img {
   border-radius: 0;
 }
 
+.fish-button {
+  margin: 0 auto 16px;
+  padding: 9px 16px;
+  color: white;
+  background: #8a4f27;
+  border: 0;
+  border-radius: 0;
+  font: inherit;
+  cursor: pointer;
+}
+
+.fish-button:hover,
+.fish-button:focus-visible {
+  background: #713f21;
+}
+
 .secondary-image {
   max-width: 60%;
 }
